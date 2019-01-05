@@ -1,0 +1,12 @@
+/* pages/dialog/dialog.wxss */
+.dialog {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  right: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999999;
+  background: #fff;
+}

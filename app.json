@@ -3,13 +3,21 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/map/map",
-    "pages/topnav/topnav"
+    "pages/topnav/topnav",
+    "pages/dialog/dialog"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "demo",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationStyle": "custom",
+    "onReachBottomDistance":500,
+    "disableScroll":true
   }
 }

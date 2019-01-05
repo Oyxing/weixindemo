@@ -22,6 +22,14 @@ Page({
       url: '../map/map',
     })
   },
+  showdialog(){
+    console.log("弹出")
+    wx.chooseLocation({
+      success(res) {
+        console.log(res)
+      }
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

@@ -1,0 +1,4 @@
+<!--pages/dialog/dialog.wxml-->
+<view class="dialog" style="top:{{someData.statusBarHeight}}px">
+dialog 弹框
+</view>

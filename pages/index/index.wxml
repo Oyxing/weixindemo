@@ -13,4 +13,6 @@
     <text class="user-motto">{{motto}}</text>
   </view>
   <view bindtap="getmap">点击</view>
+<button bindtap="showdialog">点击生成模态框</button>
+<!-- <component-dialog></component-dialog> -->
 </view>

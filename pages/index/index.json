@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "component-topnav": "../topnav/topnav"
+    "component-topnav": "../topnav/topnav",
+    "component-dialog": "../dialog/dialog"
   }
 }
